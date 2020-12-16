@@ -1,0 +1,140 @@
+:root{
+  --yelow:#FED03E;
+  --purple:#482463
+}
+
+/***** Top menu *****/
+
+.navbar {
+    background: var(--yelow);
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    -ms-transition: all .6s;
+    transition: all .6s;
+    backface-visibility: hidden;
+}
+
+.text-mypurple{
+  color: var(--purple);
+}
+
+.navbar.navbar-no-bg {
+    background: var(--yelow);
+}
+
+.navbar-dark .navbar-nav {
+    font-size: 15px;
+    color: var(--purple);
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--purple);
+    border: 0;
+}
+.nav-link {
+  color: var(--purple);
+  border: 0;
+  font-size: 25px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--purple);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: var(--purple1);
+    outline: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.brand_logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.user_card {
+  height: 400px;
+  width: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background: #f39c12;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+}
+.brand_logo_container {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  top: -75px;
+  border-radius: 50%;
+  background: var(--yelow);
+  padding: 10px;
+  text-align: center;
+}
+
+.form_container {
+  margin-top: 100px;
+}
+.login_btn {
+  width: 100%;
+  background: #c0392b !important;
+  color: white !important;
+}
+.login_btn:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.login_container {
+  padding: 0 2rem;
+}
+.input-group-text {
+  background: #c0392b !important;
+  color: white !important;
+  border: 0 !important;
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input_user,
+.input_pass:focus {
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #c0392b !important;
+}
+
+.imagen_header{
+  height: 500px;
+  width: auto;
+}
+
+.row--modify{
+  margin-right: 0px!important;
+  margin-left: 0px!important;
+}
+
+footer {
+  background-color: var(--yelow);
+  color: var(--purple);
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  padding: 20px;
+
+}
